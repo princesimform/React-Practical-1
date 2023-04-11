@@ -4,6 +4,8 @@
 
 ## Steps For Run This Project
 
+- Use Node Version 16
+  
 - `npm i`
 - `npm run build`
 - `npm run start`
