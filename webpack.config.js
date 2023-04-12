@@ -12,7 +12,7 @@ module.exports = {
     static: {
       directory: path.join(__dirname, "public"),
     },
-    port: 3001,
+    port: Math.floor(1000 + Math.random() * 9000),
     allowedHosts: ["host.com", "host2.com"],
     open: true,
   },
