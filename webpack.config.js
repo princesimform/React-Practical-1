@@ -13,7 +13,6 @@ module.exports = {
       directory: path.join(__dirname, "public"),
     },
     port: Math.floor(1000 + Math.random() * 9000),
-    allowedHosts: ["host.com", "host2.com"],
     open: true,
   },
   module: {
